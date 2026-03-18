@@ -1,0 +1,1 @@
+cmd_/home/vboxuser/LinuxKernel/hw3/process.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/vboxuser/LinuxKernel/hw3/process.ko /home/vboxuser/LinuxKernel/hw3/process.o /home/vboxuser/LinuxKernel/hw3/process.mod.o ;  true
