@@ -1,0 +1,1 @@
+cmd_/home/vboxuser/LinuxKernel/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/vboxuser/LinuxKernel/hello.ko /home/vboxuser/LinuxKernel/hello.o /home/vboxuser/LinuxKernel/hello.mod.o ;  true

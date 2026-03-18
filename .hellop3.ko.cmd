@@ -1,0 +1,1 @@
+cmd_/home/vboxuser/LinuxKernel/hellop3.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/vboxuser/LinuxKernel/hellop3.ko /home/vboxuser/LinuxKernel/hellop3.o /home/vboxuser/LinuxKernel/hellop3.mod.o ;  true
