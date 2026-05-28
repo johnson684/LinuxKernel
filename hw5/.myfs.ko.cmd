@@ -1,0 +1,1 @@
+cmd_/home/vboxuser/LinuxKernel/hw5/myfs.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/vboxuser/LinuxKernel/hw5/myfs.ko /home/vboxuser/LinuxKernel/hw5/myfs.o /home/vboxuser/LinuxKernel/hw5/myfs.mod.o ;  true
